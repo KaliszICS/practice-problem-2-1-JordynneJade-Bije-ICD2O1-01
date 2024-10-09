@@ -1,11 +1,18 @@
 
 
 def q1(): 
-  #Write Assignment code here
-
+    num = input("Input an integer: ")
+    if num / 2: 
+        print(f"{num} is even")
+    else: 
+        print(f"{num} is odd")
 
 def q2(): 
-  #Write Assignment code here
+    name = input("Input a name: ")
+    if name == "Kalisz":
+        print("teacher")
+    else: 
+        print("student")
 
 
 
